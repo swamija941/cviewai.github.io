@@ -4,11 +4,10 @@ const Hero = () => (
   <section className="bg-white py-24" id="solutions">
     <div className="container mx-auto px-6 text-center">
       <h2 className="text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
-        Transform Your Business with AI-Powered Solutions
+        Financial & Operational Excellence for Modern Organizations
       </h2>
       <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-        CrystalView provides cutting-edge data analytics and AI-driven
-        automation to help you unlock new opportunities and drive growth.
+        CrystalView.ai provides strategic financial leadership for non-profits and powerful AI-driven solutions for companies of all sizes.
       </p>
       <a
         href="#contact"
