@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => (
   <footer className="bg-gray-900 text-gray-400 py-12">
@@ -11,12 +12,12 @@ const Footer = () => (
         <div className="col-span-1">
           <h4 className="text-white font-semibold text-lg mb-4">Navigate</h4>
           <ul className="space-y-2">
-            <li><a href="#solutions" className="hover:text-white transition">Solutions</a></li>
-            <li><a href="#ai" className="hover:text-white transition">AI</a></li>
-            <li><a href="#testimonials" className="hover:text-white transition">Testimonials</a></li>
-            <li><a href="#services" className="hover:text-white transition">Services</a></li>
-            <li><a href="#faq" className="hover:text-white transition">FAQ</a></li>
-            <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
+            <li><a href="/#solutions" className="hover:text-white transition">Solutions</a></li>
+            <li><a href="/#ai" className="hover:text-white transition">AI</a></li>
+            <li><a href="/#testimonials" className="hover:text-white transition">Testimonials</a></li>
+            <li><a href="/#services" className="hover:text-white transition">Services</a></li>
+            <li><a href="/#faq" className="hover:text-white transition">FAQ</a></li>
+            <li><a href="/#contact" className="hover:text-white transition">Contact</a></li>
           </ul>
         </div>
         <div className="col-span-1">
@@ -39,8 +40,8 @@ const Footer = () => (
       <div className="mt-8 border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center text-sm">
         <p>&copy; {new Date().getFullYear()} CrystalView. All rights reserved.</p>
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="#" className="hover:text-white transition">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition">Terms of Service</a>
+          <Link to="/privacy" className="hover:text-white transition">Privacy Policy</Link>
+          <Link to="/eula" className="hover:text-white transition">EULA</Link>
         </div>
       </div>
     </div>

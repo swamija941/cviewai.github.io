@@ -1,28 +1,29 @@
 import React from "react";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import AISection from "./components/AISection";
-import Testimonials from "./components/Testimonials";
-import FAQ from "./components/FAQ";
-import CallToAction from "./components/CallToAction";
-import Footer from "./components/Footer";
+import { createBrowserRouter } from "react-router-dom";
+import Layout from "./components/Layout";
+import HomePage from "./pages/HomePage";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Eula from "./pages/Eula";
 
-const App = () => {
-  return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Services />
-        <AISection />
-        <Testimonials />
-        <FAQ />
-        <CallToAction />
-      </main>
-      <Footer />
-    </>
-  );
-};
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+      },
+      {
+        path: "privacy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "eula",
+        element: <Eula />,
+      },
+    ],
+  },
+]);
 
-export default App;
+export default router;
