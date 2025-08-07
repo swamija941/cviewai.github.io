@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const faqs = [
-  {
+ /* {
     question: "What industries do you specialize in?",
     answer:
       "We have experience working with a wide range of industries, including technology, e-commerce, healthcare, finance, and manufacturing. Our solutions are adaptable and can be tailored to meet the unique needs of any business.",
@@ -20,7 +20,7 @@ const faqs = [
     question: "Do you provide ongoing support?",
     answer:
       "Yes, we offer a range of support packages to ensure that you continue to get the most value from our solutions. Our support team is available to assist you with any questions or issues that may arise.",
-  },
+  },*/
 ];
 
 const FAQ = () => {
