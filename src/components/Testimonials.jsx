@@ -1,7 +1,7 @@
 import React from "react";
 
 const testimonials = [
-  {
+ /* {
     quote:
       "CrystalView's data analytics platform has been a game-changer for our marketing team. We can now visualize our campaign performance in real-time and make data-driven decisions that have significantly improved our ROI.",
     name: "Sarah Johnson",
@@ -19,6 +19,7 @@ const testimonials = [
     name: "David Rodriguez",
     title: "CEO of Tech Solutions",
   },
+  */
 ];
 
 const Testimonials = () => (
