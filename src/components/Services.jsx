@@ -1,17 +1,16 @@
 import React from "react";
 
 const services = [
+  
   {
-    title: "Data Analytics and Insights",
+    title: "Fractional Financial Stewardship Services",
     description:
-      "We turn your raw data into actionable intelligence. Our team of experts uses advanced analytics techniques to uncover trends, patterns, and opportunities that drive informed decision-making.",
-    icon: "📊",
+      "Get strategic financial leadership and planning without the cost of a full-time executive. Ideal for growing non-profits: "🤖",
   },
   {
-    title: "AI-Driven Automation",
+    title: "System & Process Optimization",
     description:
-      "Streamline your operations and increase efficiency with our AI-powered automation solutions. From back-office tasks to customer-facing processes, we help you automate workflows and reduce manual effort.",
-    icon: "🤖",
+      "Streamline your non profit operations with optimized systems and processes for greater efficiency and accuracy: "📊",
   },
   {
     title: "Custom AI Models",
