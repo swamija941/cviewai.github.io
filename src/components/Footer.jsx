@@ -13,10 +13,7 @@ const Footer = () => (
           <h4 className="text-white font-semibold text-lg mb-4">Navigate</h4>
           <ul className="space-y-2">
             <li><a href="/#solutions" className="hover:text-white transition">Solutions</a></li>
-            <li><a href="/#ai" className="hover:text-white transition">AI</a></li>
-            <li><a href="/#testimonials" className="hover:text-white transition">Testimonials</a></li>
             <li><a href="/#services" className="hover:text-white transition">Services</a></li>
-            <li><a href="/#faq" className="hover:text-white transition">FAQ</a></li>
             <li><a href="/#contact" className="hover:text-white transition">Contact</a></li>
           </ul>
         </div>

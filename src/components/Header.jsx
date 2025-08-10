@@ -8,17 +8,8 @@ const Header = () => (
         <a href="#solutions" className="text-gray-600 hover:text-indigo-600 transition">
           Solutions
         </a>
-        <a href="#ai" className="text-gray-600 hover:text-indigo-600 transition">
-          AI
-        </a>
-        <a href="#testimonials" className="text-gray-600 hover:text-indigo-600 transition">
-          Testimonials
-        </a>
         <a href="#services" className="text-gray-600 hover:text-indigo-600 transition">
           Services
-        </a>
-        <a href="#faq" className="text-gray-600 hover:text-indigo-600 transition">
-          FAQ
         </a>
         <a
           href="#contact"

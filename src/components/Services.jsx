@@ -2,22 +2,16 @@ import React from "react";
 
 const services = [
   {
-    title: "Data Analytics and Insights",
+    title: "Fractional Financial Stewardship Services",
     description:
-      "We turn your raw data into actionable intelligence. Our team of experts uses advanced analytics techniques to uncover trends, patterns, and opportunities that drive informed decision-making.",
+      "Get strategic financial leadership and planning without the cost of a full-time executive. Ideal for growing non-profits.",
     icon: "📊",
   },
   {
-    title: "AI-Driven Automation",
+    title: "System & Process Optimization",
     description:
-      "Streamline your operations and increase efficiency with our AI-powered automation solutions. From back-office tasks to customer-facing processes, we help you automate workflows and reduce manual effort.",
+      "Streamline your non profit operations with optimized systems and processes for greater efficiency and accuracy.",
     icon: "🤖",
-  },
-  {
-    title: "Custom AI Models",
-    description:
-      "Leverage the power of artificial intelligence with custom models built for your specific needs. We design, develop, and deploy bespoke AI solutions that integrate seamlessly with your existing systems.",
-    icon: "💡",
   },
 ];
 
@@ -29,7 +23,7 @@ const Services = () => (
           Our Comprehensive Suite of Services
         </h2>
       </div>
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 gap-8">
         {services.map((service, index) => (
           <div
             key={index}
